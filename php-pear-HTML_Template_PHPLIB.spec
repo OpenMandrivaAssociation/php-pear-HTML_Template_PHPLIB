@@ -11,7 +11,6 @@ License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/HTML_Template_PHPLIB/
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
-Patch0:		php-pear-HTML_Template_PHPLIB-1.3.1-package_xml_fix.diff
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
@@ -28,7 +27,6 @@ In PEAR status of this package is: %{_status}.
 %prep
 
 %setup -q -c
-%patch0 -p0
 
 find . -type d -perm 0700 -exec chmod 755 {} \;
 find . -type f -perm 0555 -exec chmod 755 {} \;
@@ -81,5 +79,3 @@ rm -rf %{buildroot}
 %defattr(644,root,root,755)
 %{_datadir}/pear/%{_class}/%{_subclass}/*.php
 %{_datadir}/pear/packages/%{_pearname}.xml
-
-
