@@ -5,7 +5,7 @@
 
 Summary:	%{_pearname} - preg_* based template system
 Name:		php-pear-%{_pearname}
-Version:	1.3.3
+Version:	1.4.0
 Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
