@@ -6,7 +6,7 @@
 Summary:	%{_pearname} - preg_* based template system
 Name:		php-pear-%{_pearname}
 Version:	1.4.0
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/HTML_Template_PHPLIB/
