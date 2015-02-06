@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.5.0
-Release:	6
+Release:	7
 Summary:	Preg_* based template system
 License:	PHP License
 Group:		Development/PHP
